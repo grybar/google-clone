@@ -1,9 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 #logo {
-	max-width: 50px;
-	max-height: 100px;
-	margin: 50px 100px;
+	max-width: 250px;
+	max-height: 500px;
 }
 
 .title {
 	color: red;
+	height: 100px;
+	width: 200px;
+	position: relative;
+}
+
+.center {
+	display: block;
+	margin: auto auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+html,body {
+	height: 100%;
 }
